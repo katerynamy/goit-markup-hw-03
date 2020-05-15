@@ -106,7 +106,7 @@
       <!--fields of occupation-->
       <section class="occupation">
         <div class="container">
-          <h2>Чим ми займаємося</h2>
+          <h2 class="occupation-title">Чим ми займаємося</h2>
           <ul>
             <li class="item">
               <figure>
@@ -135,7 +135,7 @@
       <!--our team-->
       <section class="team">
         <div class="container">
-          <h2>Наша команда</h2>
+          <h2 class="team-title">Наша команда</h2>
           <ul>
             <li class="item">
               <img src="./images/johnsmith.jpg" alt="Джон Сміт" />
@@ -251,61 +251,75 @@
       <!--Our clients-->
       <section class="clients">
         <div class="container">
-          <h2>Постійні клієнти</h2>
+          <h2 class="clients-title">Постійні клієнти</h2>
           <ul>
-            <li><img src="./images/logo1.svg" alt="Лого" /></li>
-            <li><img src="./images/logo2.svg" alt="Лого" /></li>
-            <li><img src="./images/logo3.svg" alt="Лого" /></li>
-            <li><img src="./images/logo4.svg" alt="Лого" /></li>
-            <li><img src="./images/logo5.svg" alt="Лого" /></li>
-            <li><img src="./images/logo6.svg" alt="Лого" /></li>
+            <li class="item"><img src="./images/logo1.svg" alt="Лого" /></li>
+            <li class="item"><img src="./images/logo2.svg" alt="Лого" /></li>
+            <li class="item"><img src="./images/logo3.svg" alt="Лого" /></li>
+            <li class="item"><img src="./images/logo4.svg" alt="Лого" /></li>
+            <li class="item"><img src="./images/logo5.svg" alt="Лого" /></li>
+            <li class="item"><img src="./images/logo6.svg" alt="Лого" /></li>
           </ul>
         </div>
       </section>
     </main>
+
+    <!-- footer -->
     <footer>
       <div class="container">
-        <div>
-          <a href="index.html" class="logo white-text"
-            ><span class="accent">Web</span> Studio</a
-          >
-          <address class="white-text">
-            м. Київ, пр-т Лесі Українки, 26<br />
-            <a href="mailto:info@example.com" class="link">info@example.com</a
-            ><br />
-            <a href="tel:+380991111111" class="link">+38 099 111 11 11</a><br />
-          </address>
+        <div class="flex-footer">
+          <!-- contacts -->
+          <div class="contacts">
+            <a href="index.html" class="logo white-text"
+              ><span class="accent">Web</span> Studio</a
+            >
+            <address class="white-text">
+              м. Київ, пр-т Лесі Українки, 26<br />
+              <a href="mailto:info@example.com" class="link">info@example.com</a
+              ><br />
+              <a href="tel:+380991111111" class="link">+38 099 111 11 11</a
+              ><br />
+            </address>
+          </div>
+          <!-- social media  links -->
+          <div class="social">
+            <b class="white-text">Приєднюєтесь</b>
+            <ul>
+              <li class="item">
+                <a class="icon" href=""
+                  ><img
+                    src="./images/blackinstagram.svg"
+                    alt="іконка Instagram"
+                /></a>
+              </li>
+              <li class="item">
+                <a class="icon" href=""
+                  ><img src="./images/blacktwitter.svg" alt="іконка Twitter"
+                /></a>
+              </li>
+              <li class="item">
+                <a class="icon" href=""
+                  ><img src="./images/blackfacebook.svg" alt="іконка Facebook"
+                /></a>
+              </li>
+              <li class="item">
+                <a class="icon" href=""
+                  ><img src="./images/blacklinked.svg" alt="іконка LinkedIn"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <!-- subscribe -->
+          <div class="subscribe">
+            <b class="white-text">Підпишіться на розсилку</b>
+            <form action=""></form>
+            <input type="text" name="" id="" />
+            <button type="button">Підписатись</button>
+          </div>
         </div>
-        <div>
-          <b class="white-text">Приєднюєтесь</b>
-          <ul>
-            <li>
-              <a href=""
-                ><img src="./images/blackinstagram.svg" alt="іконка Instagram"
-              /></a>
-            </li>
-            <li>
-              <a href=""
-                ><img src="./images/blacktwitter.svg" alt="іконка Twitter"
-              /></a>
-            </li>
-            <li>
-              <a href=""
-                ><img src="./images/blackfacebook.svg" alt="іконка Facebook"
-              /></a>
-            </li>
-            <li>
-              <a href=""
-                ><img src="./images/blacklinked.svg" alt="іконка LinkedIn"
-              /></a>
-            </li>
-          </ul>
+        <div class="copyright-container">
+          <p class="copyright">2020 | Developed by GoIT Students</p>
         </div>
-        <div>
-          <b class="white-text">Підпишіться на розсилку</b>
-          <button type="button">Підписатись</button>
-        </div>
-        <p class="copyright">2020 | Developed by GoIT Students</p>
       </div>
     </footer>
   </body>
