@@ -391,7 +391,7 @@ footer {
 
 /* contacts */
 
-footer .contacts {
+footer .contacts-footer {
   display: flex;
   flex-direction: column;
   margin-top: 48px;
