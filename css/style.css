@@ -33,6 +33,10 @@ body {
   padding-right: 15px;
 }
 
+img {
+  display: block;
+}
+
 /*header*/
 nav {
   display: flex;
@@ -107,6 +111,8 @@ nav {
 }
 
 .contacts .link {
+  display: flex;
+
   color: var(--text-main);
   font-weight: 500;
   font-size: 14px;
